@@ -1,0 +1,5 @@
+There is one get request to get all the items
+one get request to get one task
+one put request
+one for delete the task
+one update request for edit the task
