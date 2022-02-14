@@ -9,9 +9,7 @@ app.use(express.static("./public"));
 app.use(bodyParser.json());
 app.use(express.json());
 // routes
-app.get("/", (req, res) => {
-  res.send("Task Manager App");
-});
+
 // middleware
 
 app.use("/api/v1/tasks", tasks);
